@@ -1,0 +1,8 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,HomePage,SetupLink,xpath,//*[@title='Setup']
+2,HomePage,ClickOnHomeTab,xpath,//*[text()='Home'][1]
+3,HomePage,ClickOnInitiateprogramBtn,xpath,//*[@class='slds-button slds-button_brand']
+4,HomePage,SearchBox,xpath,//*[@class='uiInput uiAutocomplete uiInput--default']//*[@class='slds-input slds-text-color_default slds-p-left--none slds-size--1-of-1 input default input uiInput uiInputTextForAutocomplete uiInput--{remove}']
+5,HomePage,SelectInteraction,xpath,//*[@class='mruName slds-text-body--regular slds-text-color--default slds-truncate slds-show']//*[@class='uiOutputRichText']
+6,HomePage,ClickOnEditbtn,xpath,(//*[text()='Edit'])[1]
+"-EOF-				",,,,

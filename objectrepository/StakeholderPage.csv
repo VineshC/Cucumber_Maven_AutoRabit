@@ -1,0 +1,11 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,StakeholderPage,AddApproversBtn,xpath,//*[text()='Add Approvers']
+2,StakeholderPage,SelectApproverDropdown,xpath,//*[@class='slds-form-element__control slds-grow']//*[@name='selectItem'][1]
+3,StakeholderPage,SelectApproverRole,xpath,//*[@class='slds-form-element__control slds-grow']//*[@name='selectItem']//*[text()='Compliance Approver##']
+4,StakeholderPage,SelectApproverLevelDropdown,xpath,//*[@class='slds-form-element__control slds-grow']//*[@name='selectItem'][2]
+5,StakeholderPage,SelectApproverLevel,xpath,//*[@class='slds-form-element__control slds-grow']//*[@name='selectItem']//*[text()='Compliance Approval']
+6,StakeholderPage,SearchEmployee,xpath,//*[@class='slds-form-element__control slds-grow']//*[@name='input-name']
+7,StakeholderPage,ClickOnCheckboxToSelectEmp,xpath,//*[@class='ahm-noCellOutline ']//*[@class='slds-checkbox_faux ']
+8,StakeholderPage,DoneBtn,xpath,//*[text()='Done']
+9,StakeholderPage,ExpertLink,xpath,//*[@class='ahm-wizard__link']//*[text()='Expert'][1]
+"-EOF-				",,,,

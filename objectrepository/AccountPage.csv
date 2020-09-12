@@ -1,0 +1,12 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,AccountsPage,AccountsTab,css,"[title=""Accounts""]"
+2,AccountsPage,NewButtonInAccountsPage,css,"[class=""forceActionLink""][title=""New""]"
+3,AccountsPage,NextButtonInCreateNewAccount,xpath,"(//button[@type=""button""]//span[@class="" label bBody""])[text()='Next']"
+4,AccountsPage,AccountName,xpath,"//span[contains(text(),'Account Name')]/../..//*[@class=' input'][@type='text']"
+5,AccountsPage,SaveButton,css,"button[type=""button""][title=""Save""]>span"
+6,AccountsPage,AccountNameInAccountsDetailPage,xpath,"//span[contains(text(),'Account Name')]/../..//lightning-formatted-text"
+7,AccountsPage,DetailsTab,xpath,//li[@title='Details']
+8,AccountsPage,AccountPage,xpath,"//span[@data-aura-class=""uiOutputText forceBreadCrumbItem""][text()='Accounts']"
+9,AccountsPage,ComponentDropDown,xpath,//button[@title='Show Navigation Menu']
+10,AccountsPage,HomePageIcon,css,"[class=""slds-global-header slds-grid slds-grid--align-spread""]>[class=""slds-global-header__item""]>[class=""slds-global-header__logo""]"
+-EOF-,,,,

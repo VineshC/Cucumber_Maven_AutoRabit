@@ -1,0 +1,10 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,LoginPagePOC,Username,xpath,//*[@id='username']
+2,LoginPagePOC,Password,xpath,//*[@id='password']
+3,LoginPagePOC,LoginButton,xpath,//*[@id='Login']
+4,LoginPagePOC,User,xpath,//*[@title='User']
+5,LoginPagePOC,Mode,xpath,//a[@class='switch-to-lightning' ]
+6,LoginPagePOC,Classic,xpath,//a[text()='Switch to Salesforce Classic']
+7,LoginPagePOC,Lighting,xpath,//*[@class='switch-to-lightning']
+8,LoginPagePOC,Logout,xpath,//*[@class='profile-link-label logout uiOutputURL']
+-EOF-,,,,

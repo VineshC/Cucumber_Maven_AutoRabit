@@ -1,0 +1,11 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,InteractionSetupPage,EnterTitle,xpath,//*[@class='uiInput uiInputText uiInput--default uiInput--input']//input
+2,InteractionSetupPage,AddDescriptionBtn,xpath,//*[@class='slds-button slds-button_neutral slds-show slds-button__icon_right ahm-direct_icon']
+3,InteractionSetupPage,AddDescriptionText,xpath,//*[@class='ql-editor ql-blank slds-rich-text-area__content slds-text-color_weak slds-grow']
+4,InteractionSetupPage,SaveBtn,xpath,//*[@class='slds-p-horizontal_xx-small']//*[text()='Save']
+5,InteractionSetupPage,EnterStartDate,xpath,//*[@class='form-element uiInput uiInputDate uiInput--default uiInput--input uiInput--datetime']//*[@class='slds-input datepkr input']
+6,InteractionSetupPage,EnterStartTime,xpath,//*[@class='slds-form-element ahm-SelectHeight']//*[@class='slds-select_container']//*[@name='selectItem']//*[text()='8:30 AM']
+7,InteractionSetupPage,EnterEndDate,xpath,//*[@class='form-element uiInput uiInputDate uiInput--default uiInput--input uiInput--datetime']//*[@class='slds-input input'][1]
+8,InteractionSetupPage,EnterEndTime,xpath,//*[@class='slds-form-element ahm-SelectHeight']//*[@class='slds-select_container']//*[@name='selectItemEnd']//*[text()='830']
+9,InteractionSetupPage,ClickOnShareholder,xpath,//*[text()='Stakeholder'][1]
+"-EOF-				",,,,

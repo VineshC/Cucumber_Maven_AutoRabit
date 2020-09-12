@@ -1,0 +1,7 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,InitiateInteractionPage,InteractionCategory,xpath,//*[@name='data.interaction.Interaction_Category__c']
+2,InitiateInteractionPage,SelectInteractionCategory,xpath,//*[@name='data.interaction.Interaction_Category__c']//*[text()='Consulting Services']
+3,InitiateInteractionPage,InteractionType,xpath,//*[@name='data.interaction.Interaction_Type_r__c']
+4,InitiateInteractionPage,SelectInteractionType,xpath,//*[@name='data.interaction.Interaction_Type_r__c']//*[text()='Ltng: Advisory Board']
+5,InitiateInteractionPage,ClickOnNextBtn,xpath,//*[@class='slds-media__figure slds-media__figure_reverse ']//*[@class='slds-button slds-button_brand']
+"-EOF-				",,,,

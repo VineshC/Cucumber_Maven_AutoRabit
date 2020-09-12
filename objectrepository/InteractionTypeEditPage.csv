@@ -1,0 +1,11 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,InteractionTypeEditPage,SelectRuleCode,xpath,//span[text()='$$$value$$$']
+2,InteractionTypeEditPage,SelectValue,xpath,//*[@name='j_id0:itypeForm:editBlock:j_id163:j_id172:0:pbtbrules:70:j_id183']
+3,InteractionTypeEditPage,SelectOption,xpath,(//*[@value='Collaborator'])[7]
+4,InteractionTypeEditPage,SelectVal,xpath,//*[@name='j_id0:itypeForm:editBlock:j_id163:j_id172:0:pbtbrules:11:j_id183']
+5,InteractionTypeEditPage,SelectOpt1,xpath,(//*[@value='Collaborator'])[2]
+6,InteractionTypeEditPage,Save,xpath,(//*[@value='Save'])[1]
+7,InteractionTypeEditPage,SelectOpt2,xpath,(//*[@value='Compliance Approver'])[1]
+8,InteractionTypeEditPage,ClickNone,xpath,(//*[text()='--None--'])[31]
+9,InteractionTypeEditPage,ClickNoneBR116,xpath,(//*[text()='--None--'])[63]
+"-EOF-								",,,,

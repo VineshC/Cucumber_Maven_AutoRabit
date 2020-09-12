@@ -1,0 +1,12 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,LoginPage,UsernameTextBox,css,[id='username']
+2,LoginPage,PasswordTextBox,css,[id='password']
+3,LoginPage,LoginButton,css,[id='Login']
+4,LoginPage,ProfileIcon,css,[data-aura-class='uiTooltip']>[data-aura-class='forceSocialPhoto']
+5,LoginPage,LogoutButton,linkText,Log Out
+6,LoginPage,LoggedInUserName,xpath,"//a[contains(text(),'VINESH CHANDRAN')]"
+7,LoginPage,Appsearch,xpath,//input[@type='search'][@placeholder='Search apps and items...']
+8,LoginPage,Applauncher,xpath,//div[@class='slds-icon-waffle']
+9,LoginPage,Appselect,xpath,"//b[contains(text(),'Sales Console')]"
+10,LoginPage,HomePageIcon,css,"[class=""slds-global-header slds-grid slds-grid--align-spread""]>[class=""slds-global-header__item""]>[class=""slds-global-header__logo""]"
+-EOF-,,,,

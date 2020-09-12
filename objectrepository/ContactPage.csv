@@ -1,0 +1,17 @@
+Sl Number,Page Object ,Real Name,Object Type,Object
+1,ContactsPage,SalutationOfName,xpath,//*[@class='uiInput uiInputSelect forceInputPicklist uiInput--default uiInput--select']//*[@class='uiPicklistLabel-top form-element__label uiPicklistLabel']//span[text()='Salutation']/parent::*/following-sibling::*
+2,ContactsPage,SalutaionDropdownValues,xpath,"//a[contains(text(),'$$$Salutation$$$')]"
+3,ContactsPage,ContactsTab,css,"[title=""Contacts""]"
+4,ContactsPage,ContactsFirstName,xpath,//*[@class='firstName compoundBorderBottom form-element__row input'][@type='text']
+5,ContactsPage,ContactsLastName,xpath,//*[@class='lastName compoundBLRadius compoundBRRadius form-element__row input'][@type='text']
+6,ContactsPage,ContactsAccountNameTextBox,xpath,//*[@title='Search Accounts']
+7,ContactsPage,ContactsAccountName,xpath,//*[@class= 'primaryLabel slds-truncate slds-lookup__result-text'][@title='$$$AccName$$$']
+8,ContactsPage,SaveButton,css,"button[type=""button""][title=""Save""]>span"
+9,ContactsPage,ContactNameInContactsPage,xpath,"//lightning-formatted-name[contains(text(),'$$$ContactName$$$')]"
+10,ContactsPage,NewButtonInContactsPage,css,"[class=""forceActionLink""][title=""New""]"
+11,ContactsPage,ContactPage,xpath,"//span[@data-aura-class=""uiOutputText forceBreadCrumbItem""][text()='Contacts']"
+12,ContactsPage,ContactDetailsTab,xpath,"//span[contains(text(),'Details')]"
+13,ContactsPage,ComponentDropDown,xpath,//button[@title='Show Navigation Menu']
+14,ContactsPage,DetailsTab,xpath,//li[@title='Details'][@class='slds-tabs_default__item']
+15,ContactsPage,ContactName,xpath,"//*[@id= 'recordId'][@title='""$$$AccName$$$""']"
+-EOF-,,,,

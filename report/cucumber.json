@@ -1,0 +1,266 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: vinesh.c@brillio.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26977735500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Create Contacts and Verify",
+        "description": "",
+        "id": "contact-creation-and-verify;create-contacts-and-verify",
+        "after": [
+          {
+            "result": {
+              "duration": 140400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 239807100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Navigate to Salesforce Login URL",
+            "match": {
+              "location": "LoginAndVerify.navigate_to_salesforce_login_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 645024600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter the \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 11
+                },
+                {
+                  "val": "password",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginAndVerify.enter_the_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18388486200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click on the Login button",
+            "match": {
+              "location": "LoginAndVerify.click_on_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17905788200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 28,
+                "value": "#And Click on Applauncher and search app and select the app"
+              }
+            ],
+            "line": 29,
+            "name": "Click on Account Tab and click on New button",
+            "match": {
+              "location": "AccountCreationandVerify.click_on_account_tab_and_click_on_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5653494900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Create an account by providing account name",
+            "match": {
+              "location": "AccountCreationandVerify.create_an_account_by_providing_account_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35440386600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verify the account is created",
+            "match": {
+              "location": "AccountCreationandVerify.verify_the_account_is_created()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45811097700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on Contact Tab and click on New button",
+            "match": {
+              "location": "ContactCreationAndVerify.click_on_contact_tab_and_click_on_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37209019100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Create a contact by providing mandatory fields",
+            "match": {
+              "location": "ContactCreationAndVerify.create_a_contact_by_providing_mandatory_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15937006800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify the contact is created",
+            "match": {
+              "location": "ContactCreationAndVerify.verify_the_contact_is_created()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4125336700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Logged from the application",
+            "match": {
+              "location": "LoginAndVerify.logged_from_the_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Contact Creation and Verify",
+    "description": "",
+    "id": "contact-creation-and-verify",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featurefiles/ContactCreationAndVerify.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@tag"
+      }
+    ]
+  }
+]
