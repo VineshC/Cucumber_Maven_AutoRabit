@@ -15376,3 +15376,26 @@ Session ID: 0b714d5386ff8dad07499dbe5f8ccf47
 2020-09-14 12:48:12 info : DriverScript : getGlobalConfigPropertiesMap - getGlobalConfigMap method: end
 2020-09-14 12:48:12 info : DriverScript : initializeWebTestBaseSetup - initializeTestBaseSetup method: Start
 2020-09-14 12:48:12 info : DriverScript : initChromeDriver - Launching google chrome with new profile..
+2020-09-16 14:21:29 info : PropertyUtil : initPropertyFile - initPropertyFile(File) - start
+2020-09-16 14:21:29 info : PropertyUtil : initialize - initialize(File) - start
+2020-09-16 14:21:29 info : PropertyUtil : initialize - initialize(File) - end
+2020-09-16 14:21:29 info : PropertyUtil : initPropertyFile - initPropertyFile(String) - end
+2020-09-16 14:21:29 info : DriverScript : getGlobalConfigPropertiesMap - Opening GlobalParameter properties file...
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - In readPropertyFile method
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - Property File Loaded Succesfully
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - url:https://login.salesforce.com
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - wait.medium:30
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - firefoxdriverPath:drivers\geckodriver.exe
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - wait.low:15
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - platform:Web
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - chromedriverPath:drivers/chromedriver_linux64
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - username:vineshsoft@gmail.com
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - browser:chrome
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - iedriverPath:drivers/IEDriverServer.exe
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - objectRepository:objectrepository//
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - wait.high:100
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - testDataExcelPath:testdata//TestData.xlsx
+2020-09-16 14:21:29 info : PropertyUtil : readPropertyFile - HashMap generated::{chromedriverPath=drivers/chromedriver_linux64, wait.high=100, testDataExcelPath=testdata//TestData.xlsx, wait.medium=30, wait.low=15, firefoxdriverPath=drivers\geckodriver.exe, browser=chrome, iedriverPath=drivers/IEDriverServer.exe, objectRepository=objectrepository//, url=https://login.salesforce.com, platform=Web, username=vineshsoft@gmail.com}
+2020-09-16 14:21:29 info : DriverScript : getGlobalConfigPropertiesMap - getGlobalConfigMap method: end
+2020-09-16 14:21:29 info : DriverScript : initializeWebTestBaseSetup - initializeTestBaseSetup method: Start
+2020-09-16 14:21:29 info : DriverScript : initChromeDriver - Launching google chrome with new profile..
