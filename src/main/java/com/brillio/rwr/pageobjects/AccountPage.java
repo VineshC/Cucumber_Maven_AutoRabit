@@ -50,6 +50,7 @@ public class AccountPage {
 			Web.webAdaptor(testDriver, WebAction.waitForObjectToLoad, "NewButtonInAccountsPage");
 			Web.webAdaptor(testDriver, WebAction.IsElementExist, "NewButtonInAccountsPage");
 			Web.webAdaptor(testDriver, WebAction.click, "NewButtonInAccountsPage");
+			//Web.webAdaptor(testDriver, WebAction.click, "NewButtonInAccountsPage");
 			DriverScript.logMessage(testDriver, "testStepDone", "clickOnNewButton" + " is successful");
 		} catch (WebAdaptorException ex) {
 			DriverScript.logMessage(testDriver, "testStepFail", "clickOnNewButton" + " is unsuccessful");
