@@ -15399,3 +15399,476 @@ Session ID: 0b714d5386ff8dad07499dbe5f8ccf47
 2020-09-16 14:21:29 info : DriverScript : getGlobalConfigPropertiesMap - getGlobalConfigMap method: end
 2020-09-16 14:21:29 info : DriverScript : initializeWebTestBaseSetup - initializeTestBaseSetup method: Start
 2020-09-16 14:21:29 info : DriverScript : initChromeDriver - Launching google chrome with new profile..
+2020-09-16 14:35:52 info : PropertyUtil : initPropertyFile - initPropertyFile(File) - start
+2020-09-16 14:35:52 info : PropertyUtil : initialize - initialize(File) - start
+2020-09-16 14:35:52 info : PropertyUtil : initialize - initialize(File) - end
+2020-09-16 14:35:52 info : PropertyUtil : initPropertyFile - initPropertyFile(String) - end
+2020-09-16 14:35:52 info : DriverScript : getGlobalConfigPropertiesMap - Opening GlobalParameter properties file...
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - In readPropertyFile method
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - Property File Loaded Succesfully
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - url:https://login.salesforce.com
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - wait.medium:30
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - firefoxdriverPath:drivers\geckodriver.exe
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - wait.low:15
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - platform:Web
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - chromedriverPath:drivers/chromedriver_linux64
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - username:vineshsoft@gmail.com
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - browser:chrome
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - iedriverPath:drivers/IEDriverServer.exe
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - objectRepository:objectrepository//
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - wait.high:100
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - testDataExcelPath:testdata//TestData.xlsx
+2020-09-16 14:35:52 info : PropertyUtil : readPropertyFile - HashMap generated::{chromedriverPath=drivers/chromedriver_linux64, wait.high=100, testDataExcelPath=testdata//TestData.xlsx, wait.medium=30, wait.low=15, firefoxdriverPath=drivers\geckodriver.exe, browser=chrome, iedriverPath=drivers/IEDriverServer.exe, objectRepository=objectrepository//, url=https://login.salesforce.com, platform=Web, username=vineshsoft@gmail.com}
+2020-09-16 14:35:52 info : DriverScript : getGlobalConfigPropertiesMap - getGlobalConfigMap method: end
+2020-09-16 14:35:52 info : DriverScript : initializeWebTestBaseSetup - initializeTestBaseSetup method: Start
+2020-09-16 14:35:52 info : DriverScript : initChromeDriver - Launching google chrome with new profile..
+2020-09-17 10:39:25 info : PropertyUtil : initPropertyFile - initPropertyFile(File) - start
+2020-09-17 10:39:25 info : PropertyUtil : initialize - initialize(File) - start
+2020-09-17 10:39:25 info : PropertyUtil : initialize - initialize(File) - end
+2020-09-17 10:39:25 info : PropertyUtil : initPropertyFile - initPropertyFile(String) - end
+2020-09-17 10:39:25 info : DriverScript : getGlobalConfigPropertiesMap - Opening GlobalParameter properties file...
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - In readPropertyFile method
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - Property File Loaded Succesfully
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - url:https://login.salesforce.com
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - wait.medium:30
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - firefoxdriverPath:drivers\geckodriver.exe
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - wait.low:15
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - platform:Web
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - chromedriverPath:drivers/chromedriver.exe
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - username:vineshsoft@gmail.com
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - browser:chrome
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - iedriverPath:drivers/IEDriverServer.exe
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - objectRepository:objectrepository//
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - wait.high:100
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - testDataExcelPath:testdata//TestData.xlsx
+2020-09-17 10:39:25 info : PropertyUtil : readPropertyFile - HashMap generated::{chromedriverPath=drivers/chromedriver.exe, wait.high=100, testDataExcelPath=testdata//TestData.xlsx, wait.medium=30, wait.low=15, firefoxdriverPath=drivers\geckodriver.exe, browser=chrome, iedriverPath=drivers/IEDriverServer.exe, objectRepository=objectrepository//, url=https://login.salesforce.com, platform=Web, username=vineshsoft@gmail.com}
+2020-09-17 10:39:25 info : DriverScript : getGlobalConfigPropertiesMap - getGlobalConfigMap method: end
+2020-09-17 10:39:25 info : DriverScript : initializeWebTestBaseSetup - initializeTestBaseSetup method: Start
+2020-09-17 10:39:25 info : DriverScript : initChromeDriver - Launching google chrome with new profile..
+2020-09-17 10:39:37 info : DriverScript : launchApplication - Loading URL https://login.salesforce.com
+2020-09-17 10:39:40 info : XLUtil : openWorkBook - Opening workbook
+2020-09-17 10:39:41 info : ObjectRead : getMapFromPageObject - Getting Map object
+2020-09-17 10:39:41 info : CsvUtil : openCsv - Opening csv file
+2020-09-17 10:39:41 testStepDone : LoginPage : loadURL - login successfully
+2020-09-17 10:39:41 info : Web : argExtract - putting text into argMap
+2020-09-17 10:39:41 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:39:41 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:39:41 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:39:41 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:39:41 info : ObjectRead : getObject - UsernameTextBox's object type is css and object is [id='username']
+2020-09-17 10:39:41 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - locator is UsernameTextBox
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for UsernameTextBox
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - locator is UsernameTextBox
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:39:41 info : Web : argExtract - putting text into argMap
+2020-09-17 10:39:41 info : Web : argExtract - putting text into argMap
+2020-09-17 10:39:41 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:39:41 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:39:41 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - Set element Text keyword is invoked
+2020-09-17 10:39:41 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:39:41 info : ObjectRead : getObject - UsernameTextBox's object type is css and object is [id='username']
+2020-09-17 10:39:41 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - locator is UsernameTextBox
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - inputext is autorabit@testing.com
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - UsernameTextBox is cleared 
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - autorabit@testing.com is passed in to UsernameTextBox element
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - Set element Text keyword is executed
+2020-09-17 10:39:41 info : Web : argExtract - putting text into argMap
+2020-09-17 10:39:41 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:39:41 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:39:41 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:39:41 info : ObjectRead : getObject - PasswordTextBox's object type is css and object is [id='password']
+2020-09-17 10:39:41 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - locator is PasswordTextBox
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for PasswordTextBox
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - locator is PasswordTextBox
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:39:41 info : Web : argExtract - putting text into argMap
+2020-09-17 10:39:41 info : Web : argExtract - putting text into argMap
+2020-09-17 10:39:41 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:39:41 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - Set element Text keyword is invoked
+2020-09-17 10:39:41 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:39:41 info : ObjectRead : getObject - PasswordTextBox's object type is css and object is [id='password']
+2020-09-17 10:39:41 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - locator is PasswordTextBox
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - inputext is Brillio@2020
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - PasswordTextBox is cleared 
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - Brillio@2020 is passed in to PasswordTextBox element
+2020-09-17 10:39:41 info : ElementKeywords : setTextUsingJavaScript - Set element Text keyword is executed
+2020-09-17 10:39:41 testStepDone : LoginPage : enterCredentials - Credential entered  successfully
+2020-09-17 10:39:41 info : Web : argExtract - putting text into argMap
+2020-09-17 10:39:41 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:39:41 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:39:41 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:39:41 info : ObjectRead : getObject - LoginButton's object type is css and object is [id='Login']
+2020-09-17 10:39:41 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - locator is LoginButton
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for LoginButton
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - locator is LoginButton
+2020-09-17 10:39:41 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:39:41 info : Web : argExtract - putting text into argMap
+2020-09-17 10:39:41 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:39:41 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:39:41 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:39:41 info : ElementKeywords : clickUsingJavascript - clickUsingJavascript keyword is invoked
+2020-09-17 10:39:41 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:39:41 info : ObjectRead : getObject - LoginButton's object type is css and object is [id='Login']
+2020-09-17 10:39:41 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:39:41 info : ElementKeywords : clickUsingJavascript - locator is LoginButton
+2020-09-17 10:39:41 info : ElementKeywords : clickUsingJavascript - LoginButton element is enabled
+2020-09-17 10:39:45 info : ElementKeywords : clickUsingJavascript - LoginButton is clicked
+2020-09-17 10:39:45 info : ElementKeywords : clickUsingJavascript - clickUsingJavascript keyword is executed
+2020-09-17 10:39:45 info : Web : argExtract - putting text into argMap
+2020-09-17 10:39:45 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:39:45 error : Web : traceKeyword - waitdoes not exists in  com.automation.framework.webAdaptor.ElementKeywords checking in next class....
+2020-09-17 10:39:45 error : Web : traceKeyword - waitdoes not exists in  com.automation.framework.webAdaptor.JavascriptKeywords checking in next class....
+2020-09-17 10:39:45 error : Web : traceKeyword - waitdoes not exists in  com.automation.framework.webAdaptor.ValidationKeywords checking in next class....
+2020-09-17 10:39:45 error : Web : traceKeyword - waitdoes not exists in  com.automation.framework.webAdaptor.WindowsKeywords checking in next class....
+2020-09-17 10:39:45 error : Web : traceKeyword - waitdoes not exists in  com.automation.framework.webAdaptor.Formkeywords checking in next class....
+2020-09-17 10:39:45 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:39:45 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:39:45 info : WaitKeywords : wait - Wait action is invoked
+2020-09-17 10:40:00 info : WaitKeywords : wait - Wait Action Successful
+2020-09-17 10:40:00 info : WaitKeywords : wait - Wait action is executed
+2020-09-17 10:40:00 testStepDone : LoginPage : clickLogin - click on login button successfull
+2020-09-17 10:40:00 info : ObjectRead : getMapFromPageObject - Getting Map object
+2020-09-17 10:40:00 info : CsvUtil : openCsv - Opening csv file
+2020-09-17 10:40:00 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:00 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:00 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:00 info : WaitKeywords : wait - Wait action is invoked
+2020-09-17 10:40:15 info : WaitKeywords : wait - Wait Action Successful
+2020-09-17 10:40:15 info : WaitKeywords : wait - Wait action is executed
+2020-09-17 10:40:15 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:15 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:15 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:15 info : ElementKeywords : clickUsingJavascript - clickUsingJavascript keyword is invoked
+2020-09-17 10:40:15 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:15 info : ObjectRead : getObject - ComponentDropDown's object type is xpath and object is //button[@title='Show Navigation Menu']
+2020-09-17 10:40:15 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:15 info : ElementKeywords : clickUsingJavascript - locator is ComponentDropDown
+2020-09-17 10:40:15 info : ElementKeywords : clickUsingJavascript - ComponentDropDown element is enabled
+2020-09-17 10:40:15 info : ElementKeywords : clickUsingJavascript - ComponentDropDown is clicked
+2020-09-17 10:40:15 info : ElementKeywords : clickUsingJavascript - clickUsingJavascript keyword is executed
+2020-09-17 10:40:15 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:15 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:15 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:15 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:40:15 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:15 info : ObjectRead : getObject - AccountsTab's object type is css and object is [title=Accounts]
+2020-09-17 10:40:15 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:15 info : ElementKeywords : waitForObjectToLoad - locator is AccountsTab
+2020-09-17 10:40:15 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for AccountsTab
+2020-09-17 10:40:15 info : ElementKeywords : waitForObjectToLoad - locator is AccountsTab
+2020-09-17 10:40:15 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:40:15 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:15 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:40:15 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:15 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:15 info : ElementKeywords : IsElementExist - IsElementExist keyword is invoked
+2020-09-17 10:40:15 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:15 info : ObjectRead : getObject - AccountsTab's object type is css and object is [title=Accounts]
+2020-09-17 10:40:15 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:15 info : ElementKeywords : IsElementExist - locator is AccountsTab
+2020-09-17 10:40:15 info : ElementKeywords : IsElementExist - AccountsTab exists 
+2020-09-17 10:40:15 info : ElementKeywords : IsElementExist - IsElementExist keyword is executed
+2020-09-17 10:40:15 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:15 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:15 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:15 info : ElementKeywords : clickUsingJavascript - clickUsingJavascript keyword is invoked
+2020-09-17 10:40:15 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:15 info : ObjectRead : getObject - AccountsTab's object type is css and object is [title=Accounts]
+2020-09-17 10:40:15 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:15 info : ElementKeywords : clickUsingJavascript - locator is AccountsTab
+2020-09-17 10:40:15 info : ElementKeywords : clickUsingJavascript - AccountsTab element is enabled
+2020-09-17 10:40:16 info : ElementKeywords : clickUsingJavascript - AccountsTab is clicked
+2020-09-17 10:40:16 info : ElementKeywords : clickUsingJavascript - clickUsingJavascript keyword is executed
+2020-09-17 10:40:16 testStepDone : AccountPage : clickOnAccountsTab - clickOnAccountsTab is successful
+2020-09-17 10:40:16 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:16 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:16 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:16 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:40:16 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:16 info : ObjectRead : getObject - NewButtonInAccountsPage's object type is css and object is [class=forceActionLink][title=New]
+2020-09-17 10:40:16 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:16 info : ElementKeywords : waitForObjectToLoad - locator is NewButtonInAccountsPage
+2020-09-17 10:40:16 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for NewButtonInAccountsPage
+2020-09-17 10:40:21 info : ElementKeywords : waitForObjectToLoad - locator is NewButtonInAccountsPage
+2020-09-17 10:40:21 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:40:21 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:21 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:21 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:21 info : ElementKeywords : IsElementExist - IsElementExist keyword is invoked
+2020-09-17 10:40:21 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:21 info : ObjectRead : getObject - NewButtonInAccountsPage's object type is css and object is [class=forceActionLink][title=New]
+2020-09-17 10:40:21 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:21 info : ElementKeywords : IsElementExist - locator is NewButtonInAccountsPage
+2020-09-17 10:40:21 info : ElementKeywords : IsElementExist - NewButtonInAccountsPage exists 
+2020-09-17 10:40:21 info : ElementKeywords : IsElementExist - IsElementExist keyword is executed
+2020-09-17 10:40:21 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:21 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:40:21 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:21 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:21 info : ElementKeywords : click - Click keyword is invoked
+2020-09-17 10:40:21 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:21 info : ObjectRead : getObject - NewButtonInAccountsPage's object type is css and object is [class=forceActionLink][title=New]
+2020-09-17 10:40:21 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:21 info : ElementKeywords : click - locator is NewButtonInAccountsPage
+2020-09-17 10:40:21 info : ElementKeywords : click - NewButtonInAccountsPage element is enabled
+2020-09-17 10:40:21 info : ElementKeywords : click - NewButtonInAccountsPage element is displayed
+2020-09-17 10:40:21 info : ElementKeywords : click - NewButtonInAccountsPage is clicked
+2020-09-17 10:40:21 info : ElementKeywords : click - Click keyword is executed
+2020-09-17 10:40:21 testStepDone : AccountPage : clickOnNewButton - clickOnNewButton is successful
+2020-09-17 10:40:21 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:21 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:21 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:21 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:40:21 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:21 info : ObjectRead : getObject - AccountName's object type is xpath and object is //span[contains(text(),'Account Name')]/../..//*[@class=' input'][@type='text']
+2020-09-17 10:40:21 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:21 info : ElementKeywords : waitForObjectToLoad - locator is AccountName
+2020-09-17 10:40:21 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for AccountName
+2020-09-17 10:40:26 info : ElementKeywords : waitForObjectToLoad - locator is AccountName
+2020-09-17 10:40:26 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:40:26 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:26 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:26 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:26 info : ElementKeywords : IsElementExist - IsElementExist keyword is invoked
+2020-09-17 10:40:26 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:26 info : ObjectRead : getObject - AccountName's object type is xpath and object is //span[contains(text(),'Account Name')]/../..//*[@class=' input'][@type='text']
+2020-09-17 10:40:26 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:26 info : ElementKeywords : IsElementExist - locator is AccountName
+2020-09-17 10:40:26 info : ElementKeywords : IsElementExist - AccountName exists 
+2020-09-17 10:40:26 info : ElementKeywords : IsElementExist - IsElementExist keyword is executed
+2020-09-17 10:40:26 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:26 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:26 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:40:26 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:26 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:26 info : ElementKeywords : setText - Set element Text keyword is invoked
+2020-09-17 10:40:26 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:26 info : ObjectRead : getObject - AccountName's object type is xpath and object is //span[contains(text(),'Account Name')]/../..//*[@class=' input'][@type='text']
+2020-09-17 10:40:26 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:26 info : ElementKeywords : setText - locator is AccountName
+2020-09-17 10:40:26 info : ElementKeywords : setText - inputext is Account a1QrnaktKd
+2020-09-17 10:40:26 info : ElementKeywords : setText - AccountName is cleared 
+2020-09-17 10:40:26 info : ElementKeywords : setText - Set element Text keyword is executed
+2020-09-17 10:40:26 testStepDone : AccountPage : addAccountName - addAccountName is successful
+2020-09-17 10:40:26 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:26 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:26 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:26 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:40:26 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:26 info : ObjectRead : getObject - SaveButton's object type is css and object is button[type=button][title=Save]>span
+2020-09-17 10:40:26 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:26 info : ElementKeywords : waitForObjectToLoad - locator is SaveButton
+2020-09-17 10:40:26 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for SaveButton
+2020-09-17 10:40:26 info : ElementKeywords : waitForObjectToLoad - locator is SaveButton
+2020-09-17 10:40:26 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:40:26 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:26 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:26 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:26 info : ElementKeywords : IsElementExist - IsElementExist keyword is invoked
+2020-09-17 10:40:26 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:26 info : ObjectRead : getObject - SaveButton's object type is css and object is button[type=button][title=Save]>span
+2020-09-17 10:40:26 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:26 info : ElementKeywords : IsElementExist - locator is SaveButton
+2020-09-17 10:40:26 info : ElementKeywords : IsElementExist - SaveButton exists 
+2020-09-17 10:40:26 info : ElementKeywords : IsElementExist - IsElementExist keyword is executed
+2020-09-17 10:40:26 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:26 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:26 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:26 info : ElementKeywords : click - Click keyword is invoked
+2020-09-17 10:40:26 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:26 info : ObjectRead : getObject - SaveButton's object type is css and object is button[type=button][title=Save]>span
+2020-09-17 10:40:26 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:26 info : ElementKeywords : click - locator is SaveButton
+2020-09-17 10:40:26 info : ElementKeywords : click - SaveButton element is enabled
+2020-09-17 10:40:26 info : ElementKeywords : click - SaveButton element is displayed
+2020-09-17 10:40:26 info : ElementKeywords : click - SaveButton is clicked
+2020-09-17 10:40:26 info : ElementKeywords : click - Click keyword is executed
+2020-09-17 10:40:26 testStepDone : AccountPage : clickOnSaveButton - clickOnSaveButton is successful
+2020-09-17 10:40:26 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:26 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:26 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:26 info : WaitKeywords : wait - Wait action is invoked
+2020-09-17 10:40:56 info : WaitKeywords : wait - Wait Action Successful
+2020-09-17 10:40:56 info : WaitKeywords : wait - Wait action is executed
+2020-09-17 10:40:56 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:56 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:56 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:56 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:40:56 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:56 info : ObjectRead : getObject - DetailsTab's object type is xpath and object is //li[@title='Details']
+2020-09-17 10:40:56 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:56 info : ElementKeywords : waitForObjectToLoad - locator is DetailsTab
+2020-09-17 10:40:56 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for DetailsTab
+2020-09-17 10:40:56 info : ElementKeywords : waitForObjectToLoad - locator is DetailsTab
+2020-09-17 10:40:56 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:40:56 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:56 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:56 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:56 info : ElementKeywords : IsElementExist - IsElementExist keyword is invoked
+2020-09-17 10:40:56 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:56 info : ObjectRead : getObject - DetailsTab's object type is xpath and object is //li[@title='Details']
+2020-09-17 10:40:56 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:56 info : ElementKeywords : IsElementExist - locator is DetailsTab
+2020-09-17 10:40:56 info : ElementKeywords : IsElementExist - DetailsTab exists 
+2020-09-17 10:40:56 info : ElementKeywords : IsElementExist - IsElementExist keyword is executed
+2020-09-17 10:40:56 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:56 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:56 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:56 info : ElementKeywords : clickUsingJavascript - clickUsingJavascript keyword is invoked
+2020-09-17 10:40:56 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:56 info : ObjectRead : getObject - DetailsTab's object type is xpath and object is //li[@title='Details']
+2020-09-17 10:40:56 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:56 info : ElementKeywords : clickUsingJavascript - locator is DetailsTab
+2020-09-17 10:40:56 info : ElementKeywords : clickUsingJavascript - DetailsTab element is enabled
+2020-09-17 10:40:56 info : ElementKeywords : clickUsingJavascript - DetailsTab is clicked
+2020-09-17 10:40:56 info : ElementKeywords : clickUsingJavascript - clickUsingJavascript keyword is executed
+2020-09-17 10:40:56 testStepDone : AccountPage : clickOnAccountsDetailTab - clickOnAccountsDetailTab is successful
+2020-09-17 10:40:57 info : Web : argExtract - putting text into argMap
+2020-09-17 10:40:57 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:40:57 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:40:57 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:40:57 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:40:57 info : ObjectRead : getObject - AccountNameInAccountsDetailPage's object type is xpath and object is //span[contains(text(),'Account Name')]/../..//lightning-formatted-text
+2020-09-17 10:40:57 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:40:57 info : ElementKeywords : waitForObjectToLoad - locator is AccountNameInAccountsDetailPage
+2020-09-17 10:40:57 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for AccountNameInAccountsDetailPage
+2020-09-17 10:41:02 info : ElementKeywords : waitForObjectToLoad - locator is AccountNameInAccountsDetailPage
+2020-09-17 10:41:02 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:41:02 info : Web : argExtract - putting text into argMap
+2020-09-17 10:41:02 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:41:02 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:41:02 info : ElementKeywords : IsElementExist - IsElementExist keyword is invoked
+2020-09-17 10:41:02 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:41:02 info : ObjectRead : getObject - AccountNameInAccountsDetailPage's object type is xpath and object is //span[contains(text(),'Account Name')]/../..//lightning-formatted-text
+2020-09-17 10:41:02 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:41:02 info : ElementKeywords : IsElementExist - locator is AccountNameInAccountsDetailPage
+2020-09-17 10:41:02 info : ElementKeywords : IsElementExist - AccountNameInAccountsDetailPage exists 
+2020-09-17 10:41:02 info : ElementKeywords : IsElementExist - IsElementExist keyword is executed
+2020-09-17 10:41:02 info : Web : argExtract - putting text into argMap
+2020-09-17 10:41:02 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:41:02 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:41:02 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:41:02 info : ElementKeywords : isElementDisplayed - isElementDisplayed keyword is invoked
+2020-09-17 10:41:02 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:41:02 info : ObjectRead : getObject - AccountNameInAccountsDetailPage's object type is xpath and object is //span[contains(text(),'Account Name')]/../..//lightning-formatted-text
+2020-09-17 10:41:02 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:41:02 info : ElementKeywords : isElementDisplayed - locator is AccountNameInAccountsDetailPage
+2020-09-17 10:41:02 info : ElementKeywords : isElementDisplayed - AccountNameInAccountsDetailPage locator is enabled
+2020-09-17 10:41:02 info : ElementKeywords : isElementDisplayed - AccountNameInAccountsDetailPage locator is displayed
+2020-09-17 10:41:02 info : ElementKeywords : isElementDisplayed - Is element Displayed keyword is executed
+2020-09-17 10:41:02 info : Web : argExtract - putting text into argMap
+2020-09-17 10:41:02 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:41:02 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:41:02 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:41:02 info : ElementKeywords : getText - Get element Text keyword is invoked
+2020-09-17 10:41:02 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:41:02 info : ObjectRead : getObject - AccountNameInAccountsDetailPage's object type is xpath and object is //span[contains(text(),'Account Name')]/../..//lightning-formatted-text
+2020-09-17 10:41:02 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:41:02 info : ElementKeywords : getText - locator is AccountNameInAccountsDetailPage
+2020-09-17 10:41:02 info : ElementKeywords : getText - Extracted text is Account a1QrnaktKd
+2020-09-17 10:41:02 info : ElementKeywords : getText - Get element Text successful and saved in to map
+2020-09-17 10:41:02 info : ElementKeywords : getText - Get element Text keyword is executed
+2020-09-17 10:41:02 info : Web : argExtract - putting text into argMap
+2020-09-17 10:41:02 info : Web : argExtract - putting text into argMap
+2020-09-17 10:41:02 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:41:02 error : Web : traceKeyword - verifyElementTextdoes not exists in  com.automation.framework.webAdaptor.ElementKeywords checking in next class....
+2020-09-17 10:41:02 error : Web : traceKeyword - verifyElementTextdoes not exists in  com.automation.framework.webAdaptor.JavascriptKeywords checking in next class....
+2020-09-17 10:41:02 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:41:02 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:41:02 info : ValidationKeywords : verifyElementText - Verify Element Text action is invoked
+2020-09-17 10:41:02 info : ValidationKeywords : verifyElementText - locator is AccountNameInAccountsDetailPage
+2020-09-17 10:41:02 info : ValidationKeywords : verifyElementText - Expected text is Account a1QrnaktKd
+2020-09-17 10:41:02 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:41:02 info : ObjectRead : getObject - AccountNameInAccountsDetailPage's object type is xpath and object is //span[contains(text(),'Account Name')]/../..//lightning-formatted-text
+2020-09-17 10:41:02 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:41:02 info : ValidationKeywords : verifyElementText - Actual text is Account a1QrnaktKd
+2020-09-17 10:41:02 info : ValidationKeywords : verifyElementText - verify element text is successful
+2020-09-17 10:41:02 info : ValidationKeywords : verifyElementText - Verify Element Text action is executed
+2020-09-17 10:41:02 testStepDone : AccountPage : verifyAccount - verifyAccount is successful
+2020-09-17 10:41:02 info : Web : argExtract - putting text into argMap
+2020-09-17 10:41:02 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:41:02 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:41:02 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:41:02 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:41:02 info : ObjectRead : getObject - ProfileIcon's object type is css and object is [data-aura-class='uiTooltip']>[data-aura-class='forceSocialPhoto']
+2020-09-17 10:41:02 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:41:02 info : ElementKeywords : waitForObjectToLoad - locator is ProfileIcon
+2020-09-17 10:41:02 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for ProfileIcon
+2020-09-17 10:41:02 info : ElementKeywords : waitForObjectToLoad - locator is ProfileIcon
+2020-09-17 10:41:02 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:41:02 info : Web : argExtract - putting text into argMap
+2020-09-17 10:41:02 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:41:02 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:41:02 info : ElementKeywords : IsElementExist - IsElementExist keyword is invoked
+2020-09-17 10:41:02 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:41:02 info : ObjectRead : getObject - ProfileIcon's object type is css and object is [data-aura-class='uiTooltip']>[data-aura-class='forceSocialPhoto']
+2020-09-17 10:41:02 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:41:02 info : ElementKeywords : IsElementExist - locator is ProfileIcon
+2020-09-17 10:41:02 info : ElementKeywords : IsElementExist - ProfileIcon exists 
+2020-09-17 10:41:02 info : ElementKeywords : IsElementExist - IsElementExist keyword is executed
+2020-09-17 10:41:02 info : Web : argExtract - putting text into argMap
+2020-09-17 10:41:02 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:41:02 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:41:02 info : ElementKeywords : click - Click keyword is invoked
+2020-09-17 10:41:02 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:41:02 info : ObjectRead : getObject - ProfileIcon's object type is css and object is [data-aura-class='uiTooltip']>[data-aura-class='forceSocialPhoto']
+2020-09-17 10:41:02 info : ObjectRead : getObject - returning objectpath..
+2020-09-17 10:41:02 info : ElementKeywords : click - locator is ProfileIcon
+2020-09-17 10:41:02 info : ElementKeywords : click - ProfileIcon element is enabled
+2020-09-17 10:41:02 info : ElementKeywords : click - ProfileIcon element is displayed
+2020-09-17 10:41:07 info : ElementKeywords : click - ProfileIcon is clicked
+2020-09-17 10:41:07 info : ElementKeywords : click - Click keyword is executed
+2020-09-17 10:41:07 info : Web : argExtract - putting text into argMap
+2020-09-17 10:41:07 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:41:07 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:41:07 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad action is invoked
+2020-09-17 10:41:07 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:41:07 info : ObjectRead : getObject - LogoutButton's object type is linkText and object is Log Out
+2020-09-17 10:41:07 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:41:07 info : ElementKeywords : waitForObjectToLoad - locator is LogoutButton
+2020-09-17 10:41:07 info : ElementKeywords : waitForObjectToLoad - Maximum of 100 seconds wait will be applied to search for LogoutButton
+2020-09-17 10:42:13 info : ElementKeywords : waitForObjectToLoad - locator is LogoutButton
+2020-09-17 10:42:13 info : ElementKeywords : waitForObjectToLoad - waitForObjectToLoad keyword is invoked
+2020-09-17 10:42:13 info : Web : argExtract - putting text into argMap
+2020-09-17 10:42:13 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:42:13 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:42:13 info : ElementKeywords : IsElementExist - IsElementExist keyword is invoked
+2020-09-17 10:42:13 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:42:13 info : ObjectRead : getObject - LogoutButton's object type is linkText and object is Log Out
+2020-09-17 10:42:13 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:42:13 info : ElementKeywords : IsElementExist - locator is LogoutButton
+2020-09-17 10:42:13 info : ElementKeywords : IsElementExist - LogoutButton exists 
+2020-09-17 10:42:13 info : ElementKeywords : IsElementExist - IsElementExist keyword is executed
+2020-09-17 10:42:13 info : Web : argExtract - putting text into argMap
+2020-09-17 10:42:13 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:42:13 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:42:13 info : ElementKeywords : click - Click keyword is invoked
+2020-09-17 10:42:13 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:42:13 info : ObjectRead : getObject - LogoutButton's object type is linkText and object is Log Out
+2020-09-17 10:42:13 info : ObjectRead : getObject - object mapping..
+2020-09-17 10:42:13 info : ElementKeywords : click - locator is LogoutButton
+2020-09-17 10:42:13 info : ElementKeywords : click - LogoutButton element is enabled
+2020-09-17 10:42:13 info : ElementKeywords : click - LogoutButton element is displayed
+2020-09-17 10:42:18 info : ElementKeywords : click - LogoutButton is clicked
+2020-09-17 10:42:18 info : ElementKeywords : click - Click keyword is executed
+2020-09-17 10:42:18 testStepDone : LoginPage : clickOnLogout - signOut is successful
+2020-09-17 10:42:18 info : Web : webAdaptor - calling webElementInvoke(elementEnum, object, null, null) with no arguments by default
+2020-09-17 10:42:18 info : Web : traceKeyword - verifying invoking the method
+2020-09-17 10:42:18 error : Web : traceKeyword - closeBrowserdoes not exists in  com.automation.framework.webAdaptor.ElementKeywords checking in next class....
+2020-09-17 10:42:18 error : Web : traceKeyword - closeBrowserdoes not exists in  com.automation.framework.webAdaptor.JavascriptKeywords checking in next class....
+2020-09-17 10:42:18 error : Web : traceKeyword - closeBrowserdoes not exists in  com.automation.framework.webAdaptor.ValidationKeywords checking in next class....
+2020-09-17 10:42:18 info : Web : webElementInvoke - calling traceKeyword method webElementInvoke
+2020-09-17 10:42:18 info : Web : webElementInvoke - verifying and invoking actionMethod for webElementInvoke 
+2020-09-17 10:42:18 info : WindowsKeywords : closeBrowser - Close Browser action is invoked
+2020-09-17 10:42:20 info : WindowsKeywords : closeBrowser - Close Browser successful
+2020-09-17 10:42:20 info : WindowsKeywords : closeBrowser - Close Browser action is executed
