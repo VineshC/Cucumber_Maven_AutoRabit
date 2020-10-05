@@ -8,5 +8,6 @@ Sl Number,Page Object ,Real Name,Object Type,Object
 7,AccountsPage,DetailsTab,xpath,//li[@title='Details']
 8,AccountsPage,AccountPage,xpath,"//span[@data-aura-class=""uiOutputText forceBreadCrumbItem""][text()='Accounts']"
 9,AccountsPage,ComponentDropDown,xpath,//button[@title='Show Navigation Menu']
-10,AccountsPage,HomePageIcon,css,"[class=""slds-global-header slds-grid slds-grid--align-spread""]>[class=""slds-global-header__item""]>[class=""slds-global-header__logo""]"
+10,AccountsPage,AccountsTabs,xpath,//a[@title='Accounts']
+11,AccountsPage,HomePageIcon,css,"[class=""slds-global-header slds-grid slds-grid--align-spread""]>[class=""slds-global-header__item""]>[class=""slds-global-header__logo""]"
 -EOF-,,,,

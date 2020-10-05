@@ -28,7 +28,7 @@ Feature: Contact Creation and Verify
    #And Click on Applauncher and search app and select the app
     And  Click on Account Tab and click on New button
     And Create an account by providing account name
-    And Verify the account is created
+    #And Verify the account is created
     And Click on Contact Tab and click on New button
     And Create a contact by providing mandatory fields
     And Verify the contact is created

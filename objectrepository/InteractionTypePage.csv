@@ -1,6 +1,0 @@
-Sl Number,Page Object ,Real Name,Object Type,Object
-1,InteractionTypePage,InteractionTypeTab,xpath,//a[text()='Interaction Types']
-2,InteractionTypePage,TypeName,xpath,//a[text()='$$$value$$$']
-3,InteractionTypePage,TypeDetail,xpath,//*[@class='pageDescription' and text()='$$$value$$$]
-4,InteractionTypePage,EditButton,xpath,//*[@type='submit' and @value='Edit'][1]
-"-EOF-				",,,,

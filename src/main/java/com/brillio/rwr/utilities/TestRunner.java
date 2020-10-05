@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 
 monochrome=true,
 strict=true,
-features = "src/test/resources/featurefiles/OpportunityCreationAndVerify.feature",
+features = "src/test/resources/featurefiles/AccountCreationandVerify.feature",
 glue="com.brillio.rwr.stepdefs"
 )
 

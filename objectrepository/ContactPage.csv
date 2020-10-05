@@ -12,6 +12,7 @@ Sl Number,Page Object ,Real Name,Object Type,Object
 11,ContactsPage,ContactPage,xpath,"//span[@data-aura-class=""uiOutputText forceBreadCrumbItem""][text()='Contacts']"
 12,ContactsPage,ContactDetailsTab,xpath,"//span[contains(text(),'Details')]"
 13,ContactsPage,ComponentDropDown,xpath,//button[@title='Show Navigation Menu']
-14,ContactsPage,DetailsTab,xpath,//li[@title='Details'][@class='slds-tabs_default__item']
-15,ContactsPage,ContactName,xpath,"//*[@id= 'recordId'][@title='""$$$AccName$$$""']"
+14,ContactsPage,ContactsTabs,xpath,//a[@title='Contacts']
+15,ContactsPage,DetailsTab,xpath,//li[@title='Details'][@class='slds-tabs_default__item']
+16,ContactsPage,ContactName,xpath,"//*[@id= 'recordId'][@title='""$$$AccName$$$""']"
 -EOF-,,,,

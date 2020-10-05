@@ -42,6 +42,7 @@ public class ContactPage {
 			Web.webAdaptor(testDriver, WebAction.waitForObjectToLoad, "ContactsTab");
 			Web.webAdaptor(testDriver, WebAction.IsElementExist, "ContactsTab");
 			Web.webAdaptor(testDriver, WebAction.clickUsingJavascript, "ContactsTab");
+			Web.webAdaptor(testDriver, WebAction.click, "ContactsTabs");
 			DriverScript.logMessage(testDriver, "testStepDone", "clickOnContactsTab" + " is successful");
 		} catch (WebAdaptorException ex) {
 			DriverScript.logMessage(testDriver, "testStepFail", "clickOnContactsTab" + " is unsuccessful");
@@ -144,11 +145,12 @@ public class ContactPage {
 	public void selectRandomAccountName()
 			throws WebAdaptorException, MobileAdaptorException, ObjectNameNotFoundException {
 		try {
+			String AccountName = AccountPage.AccountName;
 			Web.webAdaptor(testDriver, WebAction.setXpathAndwaitForObjectToLoad, "ContactsAccountName",
-					testDriver.getAccountName());
+					AccountName);
 			testDriver.getWebDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Web.webAdaptor(testDriver, WebAction.setValueToXpathAndClickUsingJavscript, "ContactsAccountName",
-					testDriver.getAccountName());
+					AccountName);
 			DriverScript.logMessage(testDriver, "testStepDone", "selectRandomAccountName" + " is successful");
 		} catch (WebAdaptorException ex) {
 			DriverScript.logMessage(testDriver, "testStepFail", "selectRandomAccountName" + " is unsuccessful");
@@ -177,6 +179,7 @@ public class ContactPage {
 			String ContactName=testDriver.getScenarioTestData().get("Salutation")+" "+ContactFirstName+" "+ContactLastName;
 			System.out.println("Contact name to be displayed is "+ContactName);
 			Web.webAdaptor(testDriver, WebAction.wait,"wait.low");
+			testDriver.getWebDriver().navigate().refresh();
 			Web.webAdaptor(testDriver, WebAction.waitForObjectToLoad, "DetailsTab");
 			Web.webAdaptor(testDriver, WebAction.IsElementExist, "DetailsTab");
 			Web.webAdaptor(testDriver, WebAction.clickUsingJavascript, "DetailsTab");

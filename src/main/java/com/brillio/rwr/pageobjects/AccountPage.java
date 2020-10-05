@@ -23,6 +23,7 @@ public class AccountPage {
 	TestDriver testDriver;
 	Robot rb;
 	ObjectRead objectRead;
+	static String AccountName;
 	private static final String CHAR_LIST = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
 	private static final int RANDOM_STRING_LENGTH = 10;
 	
@@ -38,6 +39,7 @@ public class AccountPage {
 			Web.webAdaptor(testDriver, WebAction.waitForObjectToLoad, "AccountsTab");
 			Web.webAdaptor(testDriver, WebAction.IsElementExist, "AccountsTab");
 			Web.webAdaptor(testDriver, WebAction.clickUsingJavascript, "AccountsTab");
+			Web.webAdaptor(testDriver, WebAction.click, "AccountsTabs");
 			DriverScript.logMessage(testDriver, "testStepDone", "clickOnAccountsTab" + " is successful");
 		} catch (WebAdaptorException ex) {
 			DriverScript.logMessage(testDriver, "testStepFail", "clickOnAccountsTab" + " is unsuccessful");
@@ -59,14 +61,15 @@ public class AccountPage {
 
 	}
 	
-	public void addAccountName()
+	public String addAccountName()
 			throws WebAdaptorException, MobileAdaptorException, ObjectNameNotFoundException {
 		try {
 			Web.webAdaptor(testDriver, WebAction.waitForObjectToLoad, "AccountName");
 			Web.webAdaptor(testDriver, WebAction.IsElementExist, "AccountName");
-		 	testDriver.setAccountName("Account " + generateRandomString());
-			Web.webAdaptor(testDriver, WebAction.setText, "AccountName", testDriver.getAccountName());
+		 	AccountName= "Account " + generateRandomString();
+			Web.webAdaptor(testDriver, WebAction.setText, "AccountName", AccountName);
 			DriverScript.logMessage(testDriver, "testStepDone", "addAccountName" + " is successful");
+			return AccountName;
 		} catch (WebAdaptorException ex) {
 			DriverScript.logMessage(testDriver, "testStepFail", "addAccountName" + " is unsuccessful");
 			throw new WebAdaptorException(new Throwable("addAccountName" + " is unsuccessful", ex.getCause()));
@@ -92,7 +95,8 @@ public class AccountPage {
 	public void clickOnAccountsDetailTab()
 			throws WebAdaptorException, MobileAdaptorException, ObjectNameNotFoundException {
 		try {
-			Web.webAdaptor(testDriver, WebAction.wait,"wait.medium");
+			Web.webAdaptor(testDriver, WebAction.wait,"wait.low");
+			testDriver.getWebDriver().navigate().refresh();
 			Web.webAdaptor(testDriver, WebAction.waitForObjectToLoad, "DetailsTab");
 			Web.webAdaptor(testDriver, WebAction.IsElementExist, "DetailsTab");
 			Web.webAdaptor(testDriver, WebAction.clickUsingJavascript, "DetailsTab");
@@ -114,7 +118,7 @@ public class AccountPage {
 			String Account_Name= testDriver.getMapValues().get("AccountNameInAccountsDetailPage");
 			System.out.println("**********************"+Account_Name+"******************");
 			Web.webAdaptor(testDriver, WebAction.verifyElementText, "AccountNameInAccountsDetailPage",
-					testDriver.getAccountName());
+					AccountName);
 			DriverScript.logMessage(testDriver, "testStepDone", "verifyAccount" + " is successful");
 		} catch (WebAdaptorException ex) {
 			DriverScript.logMessage(testDriver, "testStepFail", "verifyAccount" + " is unsuccessful");
